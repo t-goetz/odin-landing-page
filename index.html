@@ -3,67 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="header">
-      <h3>Header Logo</h3>
-      <div class="header-links">
-        <a href="#">header link one</a>
-        <a href="#">header link two</a>
-        <a href="#">header link three</a>
+    <div class="header-div">
+      <div class="header">
+        <h3 class="header-logo">Header Logo</h3>
+        <div class="header-links">
+          <a href="#">header link one</a>
+          <a href="#">header link two</a>
+          <a href="#">header link three</a>
+        </div>
       </div>
     </div>
     <div class="container-one">
-      <div class="one-left">
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast.
-        </p>
-        <button>Sign Up</button>
+      <div class="inner-div">
+        <div class="one-left">
+          <h1 class="hero-title"><strong>This website is awesome</strong></h1>
+          <p class="hero-secondary">
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast.
+          </p>
+          <button class="hero-button"><strong>Sign Up</strong></button>
+        </div>
+        <div class="one-right">this is a placeholder for an image</div>
       </div>
-      <div class="one-right">this is a placeholder for an image</div>
     </div>
     <div class="container-two">
-      <h2>Some random information.</h2>
-      <div class="image-placeholder-container">
-        <div class="image-placeholder"></div>
-        <div class="placeholder-text">
-          this is some subtext under an illustration or image
-        </div>
-        <div class="image-placeholder"></div>
-        <div class="placeholder-text">
-          this is some subtext under an illustration or image
-        </div>
-        <div class="image-placeholder"></div>
-        <div class="placeholder-text">
-          this is some subtext under an illustration or image
-        </div>
-        <div class="image-placeholder"></div>
-        <div class="placeholder-text">
-          this is some subtext under an illustration or image
+      <div class="inner-div">
+        <h2 class="information-title">
+          <strong>Some random information.</strong>
+        </h2>
+        <div class="image-placeholder-container">
+          <div class="image-placeholder-box">
+            <div class="image-placeholder"></div>
+            <div class="placeholder-text">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+          <div class="image-placeholder-box">
+            <div class="image-placeholder"></div>
+            <div class="placeholder-text">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+          <div class="image-placeholder-box">
+            <div class="image-placeholder"></div>
+            <div class="placeholder-text">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+          <div class="image-placeholder-box">
+            <div class="image-placeholder"></div>
+            <div class="placeholder-text">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="container-three">
-      <blockquote class="quote">
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's
-        just filling up space, or maybe people will actually read it. Who knows?
-        All I know is that it looks nice.
-      </blockquote>
-      <p class="quote-author">-Thor, God of Thunder</p>
+      <div class="inner-div">
+        <div class="quote-block">
+          <blockquote class="quote">
+            <em>
+              This is an inspiring quote, or a testimonial from a customer.
+              Maybe it's just filling up space, or maybe people will actually
+              read it. Who knows? All I know is that it looks nice.
+            </em>
+          </blockquote>
+          <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+      </div>
     </div>
     <div class="container-four">
-      <div class="call-to-action-container">
-        <div class="cta-left">
-          <h3>Call to action! It's time!</h3>
-          <p>
-            Sign up for our product by clicking that button right over there!
-          </p>
-        </div>
-        <div class="cta-right">
-          <button>Sign up</button>
+      <div class="inner-div">
+        <div class="cta-container">
+          <div class="cta-left">
+            <h3>Call to action! It's time!</h3>
+            <p>
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <div class="cta-right">
+            <button class="cta-button"><strong>Sign up</strong></button>
+          </div>
         </div>
       </div>
     </div>
